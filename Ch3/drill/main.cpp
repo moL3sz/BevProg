@@ -22,8 +22,16 @@ int main(){
     cout << "Is your friend male or female (m/f): ";
     cin >> friendGender;
     //create a string according to the gender
-    string hisher = (friendGender == 'f') ? "her" : "him";
-    letter += "If you see " + friendName + " please ask " + hisher +" to call me.\n";
+    string gender = "";
+    if(friendGender == 'f')
+        gender = "her";
+    else if(friendGender == 'm')
+        gender = "his";
+    else
+        gender = "it";
+
+
+    letter += "If you see " + friendName + " please ask " + gender +" to call me.\n";
     int age;
     while(1){
         cout << "Enter your recepient age: ";
