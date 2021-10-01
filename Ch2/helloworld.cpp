@@ -2,8 +2,11 @@
 
 int main(){
 
-	for(uint i = 0; i < 10; ++i){
-		cout << "Hello world!"<<endl;
+	string hw = "Hello World";
+	for(char c : hw){
+		cout << c;
 	}
+	//Ne zarodjon be a program
+	cin.get();
 	return 0;
 }
