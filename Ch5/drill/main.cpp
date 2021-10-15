@@ -2,7 +2,7 @@
 
 int main(){
     try {
-        cout << "Success!\n";
+        /*cout << "Success!\n";
         cout << "Success!\n";
         cout << "Success" << "!\n";
         cout << "Success!" << '\n';
@@ -27,7 +27,7 @@ int main(){
         int i = 0; while (i<10) ++i; if (i) cout << "Success!\n";
         int x = 4; double d = 5.0/(x-2); if (d==2+0.5) cout << "Success!\n";
         cout << "Success!\n";
-
+*/
         return 0;
     }
     catch (exception& e) {
