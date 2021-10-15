@@ -26,7 +26,7 @@ int main(){
 	}
 	*/
 
-
+	//Task 6-11
 	double a,largest = 0,smallest = INT_MAX;
 	string unit ="";
 	double sum = 0;
