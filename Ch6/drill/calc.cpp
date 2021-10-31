@@ -1,4 +1,35 @@
-
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@moL3sz 
+Chrinkus
+/
+stroustrup-ppp
+Public
+12
+10143
+Code
+Issues
+3
+Pull requests
+2
+Actions
+Projects
+1
+Wiki
+Security
+Insights
+stroustrup-ppp/chapter06/ch06_drill.cpp
+@Chrinkus
+Chrinkus Completed Chapter 6 notes
+Latest commit 65b5ca8 on Jun 7, 2017
+ History
+ 1 contributor
+204 lines (170 sloc)  6.01 KB
   
 //
 // This is example code from Chapter 6.7 "Trying the second version" of
@@ -14,7 +45,7 @@
 	Happy hunting!
 */
 
-#include "../../Ch2/std_lib_facilities.h"
+#include "../text_lib/std_lib_facilities.h"
 
 //------------------------------------------------------------------------------
 
@@ -178,6 +209,11 @@ double expression()
 int main(){
     try
     {
+        cout << "Welcome to our simple calculator.\n"
+             << "Please enter expressions using floating-point numbers.\n"
+             << "You can add, subract, divide, multiply!!\n"
+             << "End your expression with an '=' to print the current state, press 'x' to quit.\n";
+
         while (cin) {
             cout << "=" << expression() << '\n';
         }
