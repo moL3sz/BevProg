@@ -1,37 +1,4 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@moL3sz 
-Chrinkus
-/
-stroustrup-ppp
-Public
-12
-10143
-Code
-Issues
-3
-Pull requests
-2
-Actions
-Projects
-1
-Wiki
-Security
-Insights
-stroustrup-ppp/chapter06/ch06_drill.cpp
-@Chrinkus
-Chrinkus Completed Chapter 6 notes
-Latest commit 65b5ca8 on Jun 7, 2017
- History
- 1 contributor
-204 lines (170 sloc)  6.01 KB
-  
-//
+  //
 // This is example code from Chapter 6.7 "Trying the second version" of
 // "Software - Principles and Practice using C++" by Bjarne Stroustrup
 //
