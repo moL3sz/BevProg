@@ -113,7 +113,7 @@ double primary()
     case '8':            // we use '8' to represent a number
         return t.value;  // return the number's value
     default:
-        error("primary expected");
+        break;
     }
 }
 
@@ -182,7 +182,7 @@ int main(){
              << "End your expression with an '=' to print the current state, press 'x' to quit.\n";
 
         while (cin) {
-            cout << "=" << expression() << '\n';
+            cout << expression() << '\n';
         }
         keep_window_open();
     }

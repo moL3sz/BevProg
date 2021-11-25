@@ -2,9 +2,6 @@
 #include <iomanip>    
 
 using namespace std;
-
-
-
 int main(){
 
 
@@ -18,9 +15,6 @@ int main(){
     int a,b,c,d;
     cin >> a >> hex >> b >> oct >> c >> d;
     cout << a << '\t' << b << '\t' << c << '\t' << d << '\n';
-    
-
-    // Floating point output
     cout << 1234.56789 << "\t\t(defaultfloat)\n" << fixed
          << 1234.56789 << "\t(fixed)\n" << scientific
          << 1234.56789 << "\t(scientific)\n";
@@ -32,5 +26,5 @@ int main(){
          << '|' << setw(32) << "feketethebest@gmail.com"
          << '|' << setw(20) << "+36 304297843" << "|\n";
 
-    return 0;
+    return 0;   
 }
